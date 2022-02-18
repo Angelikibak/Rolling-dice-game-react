@@ -40,7 +40,7 @@ const Game = ({ game, fetchGameWonData }) => {
       <div className='match-id'>
         <span >Match ID: {matchId}</span>
       </div>
-      <h1 className = 'game-title'>Roll the dice</h1>
+      <h1 className = 'game-title'>Lucky Dice</h1>
       <div className="score-to-win" >Score to win: {scoreToWin}</div>
       { indexOfWinner >= 0 ? 
       <div><h1 className='winner'>Player {indexOfWinner + 1} you won congratulations!!</h1></div>: ''}
